@@ -1,0 +1,32 @@
+/** All browser copy is owned by the plugin's typed dictionaries. */
+export declare const zh: {
+    title: string;
+    open: string;
+    close: string;
+    refresh: string;
+    working: string;
+    empty: string;
+    preview: string;
+    undo: string;
+    select: string;
+    conflict: string;
+    stale: string;
+    scope: string;
+    files: string;
+    skipped: string;
+    turn: string;
+    name: string;
+    save: string;
+    done: string;
+    restored: string;
+    recover: string;
+    prepared: string;
+    failure: string;
+    diff: string;
+    all: string;
+    busy: string;
+    recovered: string;
+    saved: string;
+};
+export type Key = keyof typeof zh;
+export declare const en: Record<Key, string>;
